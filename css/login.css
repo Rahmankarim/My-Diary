@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  background-image: url("../images/renata-adrienn-ebvCsRypmxM-unsplash.jpg");
+  background-size: 100% auto;
+
+  background-repeat: no-repeat;
+}
+.Container {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  text-align: center;
+  height: auto;
+}
+.Inner-section {
+  width: 60%;
+  align-self: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-left: 20%;
+  column-gap: 1vw;
+}
+.Input-fields {
+  width: 53%;
+  font-size: 1vw;
+  border-radius: 5px;
+  text-align: center;
+  height: 50px;
+}
+button {
+  width: 15%;
+  height: 41px;
+  font-size: 1vw;
+  background-color: transparent;
+}
+.checkbox {
+  width: 26px;
+  height: 20px;
+}
+.name {
+  font-size: 1.1vw;
+}
+.Signin,
+.Signup {
+  background-color: #dadadad4;
+  border-radius: 37px;
+}
+
+.Signin:hover {
+  background-color: transparent;
+}
+
+.Signup:hover {
+  background-color: transparent;
+}
+button:hover {
+  background-color: white;
+}
+.goHome {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  background-color: #dadadad4;
+  padding: 1.5%;
+  font-size: 1vw;
+  border-radius: 20px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Diary</title>
+    <link rel="stylesheet" href="./css/mydiary.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+  <body>
+    <div class="Container">
+      <div class="Header">
+        <h1>My Diary</h1>
+        <a class="login" href="./login.html">Login</a>
+      </div>
+      <div class="Inner-container">
+        <div class="Side-menu">
+          <br />
+          <br />
+          <a class="menu-ankertags" href="./home.html">Home </a>
+
+          <br />
+          <br />
+          <a class="menu-ankertags" href="">New Entity</a>
+          <br />
+          <br />
+        </div>
+        <div class="Middle-section">
+          <div class="Book">
+            <div class="Book-Title">
+              <br /><br />
+              <form action="">
+                <textarea
+                  class="Title-textarea"
+                  name="Title-textarea"
+                  id="Title-textarea"
+                  placeholder="Enter Your Title Here"
+                ></textarea>
+                <br />
+                <textarea
+                  class="Body-diary"
+                  name="Body-diary"
+                  id="Body-diary"
+                  placeholder="Enter Your Text Here"
+                ></textarea>
+                <br /><br />
+                <button id="Save" class="Buttons" type="button">Save</button>
+                <button class="Buttons" type="reset">Reset</button>
+                <br /><br /><br />
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="Right-section">
+          <h1 id="Entity"></h1>
+          <div class="Date">
+            <br /><br />
+            <h2 id="date">Date:</h2>
+            <br />
+            <h5 id="name">Name:</h5>
+            <br />
+            <h5 id="email">Email:</h5>
+            <br />
+            <h5 id="gender">Gender:</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/mydiary.js"></script>
+  </body>
+</html>

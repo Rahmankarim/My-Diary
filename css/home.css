@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100%;
+  color: #4d4d4d;
+}
+.Main-Container {
+  display: grid;
+  grid-template-columns: 100%;
+}
+.Header {
+  background-image: url("../images/cover.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: auto;
+}
+
+.Header1 {
+  color: white;
+  padding: 17px;
+  font-size: 4vw;
+}
+.login {
+  float: right;
+  font-size: 1.5vw;
+  text-decoration: none;
+  color: black;
+  background-color: #ffa705;
+  padding: 13px;
+}
+.text-on-image {
+  text-align: center;
+  color: white;
+  font-size: 3vw;
+  padding-top: 9vw;
+}
+.Anker-tag {
+  text-align: center;
+  font-size: 2vw;
+  padding-top: 18vw;
+}
+.Anker-tag a {
+  text-decoration: none;
+  color: white;
+  padding-left: 2vw;
+}
+.Section-1-inner-div {
+  background-color: #edecea;
+  color: rgb(64 60 60);
+  text-align: center;
+  font-size: 2vw;
+  align-items: center;
+}
+.P-tag-Section1 {
+  width: 50vw;
+  margin-left: 23vw;
+}
+.Pencil {
+  max-width: 100%;
+  height: auto;
+}
+.Anker-tag1 {
+  text-decoration: none;
+  color: white;
+  background-color: #ffa705;
+  padding: 12px;
+  border-radius: 12px;
+}
+.Image-div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.Security-Div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #ffffff;
+}
+.Footer {
+  background-color: rgb(63, 62, 62);
+}
+.diagram {
+  max-width: 100%;
+  height: auto;
+}
+.p-section2 {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

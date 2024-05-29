@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DIsplay Diary</title>
+    <link rel="stylesheet" href="./css/Display.css" />
+  </head>
+  <body>
+    <div class="Container">
+      <div>
+        <a class="ankertag" href="./home.html">Home</a>
+
+        <a class="ankertag" href="./Mydiary.html">My Diary</a>
+      </div>
+      <div
+        class="Inner-Container"
+        style="
+          width: 50vw;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 5vw;
+          font-size: 1.6vw;
+          background-color: white;
+          filter: opacity(0.8);
+        "
+      >
+        <br />
+        <div class="Title">
+          <h1
+            style="padding-left: 12px; text-align: center"
+            id="Title-div"
+            aria-placeholder="Title"
+          ></h1>
+        </div>
+        <br />
+        <div class="BodyDiary">
+          <p
+            style="padding-left: 12px"
+            id="Body-div"
+            aria-placeholder="Body"
+          ></p>
+        </div>
+      </div>
+    </div>
+    <script src="./js/display.js"></script>
+  </body>
+</html>

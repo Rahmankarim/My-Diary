@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100%;
+}
+.Container {
+  display: grid;
+  grid-template-columns: 100%;
+  max-width: 100%;
+  height: auto;
+}
+.Header {
+  padding: 1vw;
+  font-size: 1.1vw;
+  font-family: cursive;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+.Inner-container {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  max-width: 100%;
+  height: auto;
+}
+.Side-menu {
+  background-color: rgb(83, 83, 83);
+  text-align: center;
+}
+.menu-ankertags {
+  text-decoration: none;
+  font-size: 1.4vw;
+  color: rgb(255, 255, 255);
+}
+.Middle-section {
+  background-color: rgb(255, 255, 255);
+}
+.Right-section {
+  background-color: rgb(83, 83, 83);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 1.1vw;
+}
+.login {
+  float: right;
+  margin-top: -3.5vw;
+  background-color: orange;
+  padding: 0.5vw;
+  font-size: 1.5vw;
+  text-decoration: none;
+  border-radius: 13px;
+  color: white;
+}
+.Book {
+  max-width: 100%;
+  height: auto;
+  background-image: url("../images/renata-adrienn-ebvCsRypmxM-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.Title-textarea {
+  text-align: center;
+  font-size: 2vw;
+  width: 90%;
+  height: 13vh;
+  filter: opacity(0.8);
+  border-radius: 15px;
+}
+
+.Body-diary {
+  text-align: center;
+  font-size: 1.3vw;
+  width: 90%;
+  height: 65vh;
+  filter: opacity(0.8);
+  border-radius: 15px;
+}
+.Buttons {
+  font-size: 1vw;
+  padding: 0.5vw;
+  margin-left: 1vw;
+  color: black;
+  border-radius: 13px;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/login.css" />
+  </head>
+  <body>
+    <div class="Container">
+      <div class="Inner-section">
+        <div class="Signup">
+          <form action="">
+            <br /><br />
+            <br /><br />
+            <input
+              class="Input-fields"
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Name"
+            />
+            <br /><br />
+            <input
+              class="Input-fields"
+              id="email"
+              type="email"
+              name="email"
+              placeholder="Email"
+            />
+            <br /><br />
+            <input
+              class="Input-fields"
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+            />
+            <br /><br />
+            <label class="name" for="male">Male</label>
+            <input
+              class="checkbox"
+              type="radio"
+              id="male"
+              name="gender"
+              value="male"
+            />
+
+            <label class="name" for="female">Female</label>
+            <input
+              class="checkbox"
+              type="radio"
+              id="female"
+              name="gender"
+              value="female"
+            />
+
+            <label class="name" for="other">Other</label>
+            <input
+              class="checkbox"
+              type="radio"
+              id="other"
+              name="gender"
+              value="other"
+            />
+            <br /><br />
+            <button id="Signup" type="button">Sign Up</button>
+          </form>
+        </div>
+        <div class="Signin">
+          <br /><br />
+          <br /><br />
+          <br /><br />
+          <form action="">
+            <input
+              class="Input-fields"
+              id="email"
+              type="email"
+              name="email"
+              placeholder="Email"
+            />
+            <br /><br />
+            <input
+              class="Input-fields"
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+            />
+            <br /><br />
+            <label class="name" for="Remberme">Remember Me</label>
+            <input
+              class="checkbox"
+              type="checkbox"
+              name="Remberme"
+              id="Remberme"
+            />
+            <br /><br />
+            <button id="Signin" type="button">Sign In</button>
+            <br /><br /><br />
+          </form>
+          <br /><br />
+        </div>
+      </div>
+      <div class="go-home-div">
+        <br /><br /><br /><br /><br />
+        <a class="goHome" href="./home.html">Go Back to Home</a>
+      </div>
+    </div>
+    <script src="./js/login.js"></script>
+  </body>
+</html>
